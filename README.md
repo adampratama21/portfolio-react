@@ -1,13 +1,52 @@
-<<<<<<< HEAD
 # portfolio-react
-Folder untuk menyimpan latihan membuat website portfolio dengan React
-=======
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah website portfolio pribadi yang dibangun menggunakan **React**, dengan **Vite** sebagai alat build, dan penataan dengan **CSS** dan **Bootstrap**.
 
-Currently, two official plugins are available:
+## Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
->>>>>>> fbc1e64 (Initial commit: Migrasi dari folder local)
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- React
+- Vite
+
+## Deskripsi
+
+Website portfolio pribadi ini dibuat untuk melatih kemampuan saya dalam membangun aplikasi menggunakan React dan alat bantu build Vite.
+
+## Fitur
+
+- **Tampilan Responsif**: Menggunakan Bootstrap untuk memastikan layout tetap rapi di berbagai perangkat.
+- **Interaktif**: Menggunakan sedikit JavaScript untuk menambah interaktivitas pada elemen-elemen tertentu.
+
+## Cara Menjalankan
+
+1. **Clone repository ini ke dalam local directory**:
+
+   ```bash
+   git clone https://github.com/adampratama21/portfolio-react.git
+
+   ```
+
+2. **Masuk ke folder projectnya**:
+```bash
+   cd portfolio-react
+
+   ```
+
+3. **Install dependensi**:
+```bash
+  pnpm install
+
+   ```
+
+4. **Jalankan server pengembangan**:
+```bash
+   pnpm run dev
+
+   ```
+
+5. Aplikasi akan tersedia di :
+   - http://localhost:5173
+
