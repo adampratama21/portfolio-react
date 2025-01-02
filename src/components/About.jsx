@@ -1,3 +1,8 @@
+import fotoAdam from "../assets/images/foto_adam.jpg";
+import instagram from "../assets/images/logo/instagram_logo.png";
+import linkedin from "../assets/images/logo/linkedin_logo.png";
+import github from "../assets/images/logo/github_logo.png";
+
 export default function About() {
   return (
     <>
@@ -9,8 +14,8 @@ export default function About() {
           <div className="row">
             <div className="tentang col-md-12">
               <img
-                src="/images/foto_adam.jpg"
-                alt="Foto Diri"
+                src={fotoAdam}
+                alt="Adam Pratama"
                 className="rounded-circle my-4 img-fluid"
                 width="200"
               />
@@ -28,7 +33,7 @@ export default function About() {
                     href="https://www.instagram.com/adam__pratama"
                     target="_blank">
                     <img
-                      src="/images/logo/instagram_logo.png"
+                      src={instagram}
                       alt="Instagram"
                       className="logo-cover"
                     />
@@ -39,7 +44,7 @@ export default function About() {
                     href="https://www.linkedin.com/in/adampratama21/"
                     target="_blank">
                     <img
-                      src="/images/logo/linkedin_logo.png"
+                      src={linkedin}
                       alt="Linkedin"
                       className="logo-contain"
                     />
@@ -50,7 +55,7 @@ export default function About() {
                     href="https://github.com/adampratama21"
                     target="_blank">
                     <img
-                      src="/images/logo/github_logo.png"
+                      src={github}
                       alt="GitHub"
                       className="logo-contain"
                     />

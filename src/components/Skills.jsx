@@ -1,3 +1,18 @@
+import html from "../assets/images/logo/html.png";
+import css from "../assets/images/logo/css.png";
+import javascript from "../assets/images/logo/javascript.png";
+import bootstrap from "../assets/images/logo/bootstrap.png";
+import node from "../assets/images/logo/nodejs.png";
+import express from "../assets/images/logo/expressjs.png";
+import react from "../assets/images/logo/react.png";
+import vscode from "../assets/images/logo/visual-studio-code.png";
+import git from "../assets/images/logo/git.png";
+import github from "../assets/images/logo/github_logo.png";
+import npm from "../assets/images/logo/npm.png";
+import word from "../assets/images/logo/word.png";
+import excel from "../assets/images/logo/excel.png";
+import ppt from "../assets/images/logo/power-point.png";
+
 export default function Skills() {
   return (
     <>
@@ -12,49 +27,49 @@ export default function Skills() {
               <ul className="d-flex flex-row justify-content-center flex-wrap list-unstyled mb-5 gap-2">
                 <li className="logo">
                   <img
-                    src="/images/logo/html.png"
+                    src={html}
                     alt="HTML"
                     className="logo-cover"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/css.png"
+                    src={css}
                     alt="CSS"
                     className="logo-contain"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/javascript.png"
+                    src={javascript}
                     alt="JavaScript"
                     className="logo-cover"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/bootstrap.png"
+                    src={bootstrap}
                     alt="Bootstrap"
                     className="logo-cover"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/nodejs.png"
+                    src={node}
                     alt="NodeJS"
                     className="logo-cover"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/expressjs.png"
+                    src={express}
                     alt="ExpressJS"
                     className="logo-contain"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/react.png"
+                    src={react}
                     alt="React"
                     className="logo-contain"
                   />
@@ -66,28 +81,28 @@ export default function Skills() {
               <ul className="d-flex flex-row justify-content-center flex-wrap list-unstyled mb-5 gap-2">
                 <li className="logo">
                   <img
-                    src="/images/logo/visual-studio-code.png"
+                    src={vscode}
                     alt="Visual Studio Code"
                     className="logo-contain"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/git.png"
+                    src={git}
                     alt="Git"
                     className="logo-contain"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/github_logo.png"
+                    src={github}
                     alt="GitHub"
                     className="logo-contain"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/npm.png"
+                    src={npm}
                     alt="npm"
                     className="logo-cover"
                   />
@@ -99,21 +114,21 @@ export default function Skills() {
               <ul className="d-flex flex-row justify-content-center flex-wrap list-unstyled mb-5 gap-2">
                 <li className="logo">
                   <img
-                    src="/images/logo/word.png"
+                    src={word}
                     alt="Ms. Word"
                     className="logo-cover"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/excel.png"
+                    src={excel}
                     alt="Ms. Excel"
                     className="logo-contain"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src="/images/logo/power-point.png"
+                    src={ppt}
                     alt="Ms. PowerPoint"
                     className="logo-cover"
                   />
