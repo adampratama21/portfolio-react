@@ -12,7 +12,7 @@ export default function About() {
         <div className="container d-flex flex-column mt-5 mt-md-0">
           <h2>About Me</h2>
           <div className="row">
-            <div className="tentang col-md-12">
+            <div className="about col-md-12">
               <img
                 src={fotoAdam}
                 alt="Adam Pratama"
@@ -27,7 +27,7 @@ export default function About() {
             </div>
             <div className="col-md-8 mt-5 mx-auto">
               <h4>Social Media</h4>
-              <ul className="d-flex flex-row justify-content-center flex-wrap list-unstyled mt-3 column-gap-md-5 column-gap-3">
+              <ul className="d-flex flex-row justify-content-center flex-wrap list-unstyled mt-3 column-gap-md-5 column-gap-3 mb-5">
                 <li className="logo">
                   <a
                     href="https://www.instagram.com/adam__pratama"
@@ -63,6 +63,13 @@ export default function About() {
                 </li>
               </ul>
             </div>
+            <div className="col-md-8 mt-3 mx-auto"></div>
+            <h4>Contact :</h4>
+            <ul className="list-unstyled mt-2 mb-5 list-group d-flex flex-column align-items-center">
+              <li className="list-group-item contact-email">
+                adam629pratama@gmail.com
+              </li>
+            </ul>
           </div>
         </div>
       </section>
