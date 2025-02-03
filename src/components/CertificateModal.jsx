@@ -4,6 +4,10 @@ export default function CertificateModal({ certificate, onClose }) {
   return (
     <>
       <div
+        className="modal-overlay"
+        onClick={onClose}></div>
+
+      <div
         className={`modal fade ${certificate ? "show d-block" : ""}`}
         tabIndex="-1">
         <div className="container">
@@ -33,19 +37,19 @@ export default function CertificateModal({ certificate, onClose }) {
                     </li>
                     <li>
                       <p>
-                        <span className="fw-bold">Description :</span>
+                        <span className="fw-bold">Description :</span>{" "}
                         {certificate.description}
                       </p>
                     </li>
                     <li>
                       <p>
-                        <span className="fw-bold">Date Issued :</span>
+                        <span className="fw-bold">Date Issued :</span>{" "}
                         {certificate.dateIssued}
                       </p>
                     </li>
                     <li>
                       <p>
-                        <span className="fw-bold">Issued By :</span>
+                        <span className="fw-bold">Issued By :</span>{" "}
                         {certificate.issuedBy}
                       </p>
                     </li>
@@ -61,10 +65,10 @@ export default function CertificateModal({ certificate, onClose }) {
                   </ul>
                 </div>
               </div>
-              <div class="modal-footer">
+              <div className="modal-footer">
                 <button
                   type="button"
-                  class="btn btn-secondary"
+                  className="btn btn-secondary"
                   onClick={onClose}>
                   Close
                 </button>

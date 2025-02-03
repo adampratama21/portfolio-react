@@ -4,6 +4,10 @@ export default function ProjectModal({ project, onClose }) {
   return (
     <>
       <div
+        className="modal-overlay"
+        onClick={onClose}></div>
+
+      <div
         className={`modal fade ${project ? "show d-block" : ""}`}
         tabIndex="-1">
         <div className="container">
@@ -33,13 +37,13 @@ export default function ProjectModal({ project, onClose }) {
                     </li>
                     <li>
                       <p>
-                        <span className="fw-bold">Description :</span>
+                        <span className="fw-bold">Description :</span>{" "}
                         {project.description}
                       </p>
                     </li>
                     <li>
                       <p>
-                        <span className="fw-bold">Tech Stack :</span>
+                        <span className="fw-bold">Tech Stack :</span>{" "}
                         {project.techStack}
                       </p>
                     </li>
@@ -67,10 +71,10 @@ export default function ProjectModal({ project, onClose }) {
                   </ul>
                 </div>
               </div>
-              <div class="modal-footer">
+              <div className="modal-footer">
                 <button
                   type="button"
-                  class="btn btn-secondary"
+                  className="btn btn-secondary"
                   onClick={onClose}>
                   Close
                 </button>
