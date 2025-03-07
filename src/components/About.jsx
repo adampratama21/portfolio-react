@@ -19,10 +19,14 @@ export default function About() {
                 className="rounded-circle my-4 img-fluid"
                 width="200"
               />
-              <p className="col-10 text-justify mx-auto">
-                I am seeking an opportunity to start my career as a front-end
-                web developer. I am eager to further develop my skills in web
-                development, with a strong focus on front-end development.
+              <p className="col-10 text-center mx-auto">
+                Aspiring Front-End Developer with experience in building
+                responsive web applications using HTML, CSS (Bootstrap),
+                JavaScript, and React. Passionate about creating user-friendly
+                and visually appealing interfaces. Actively developing my skills
+                through personal projects. Looking for an opportunity to
+                contribute to a development team and grow as a professional
+                developer.
               </p>
             </div>
             <div className="col-md-8 mt-5 mx-auto">
@@ -66,8 +70,12 @@ export default function About() {
             <div className="col-md-8 mt-3 mx-auto"></div>
             <h4>Contact :</h4>
             <ul className="list-unstyled mt-2 mb-5 list-group d-flex flex-column align-items-center">
-              <li className="list-group-item contact-email">
-                adam629pratama@gmail.com
+              <li className="btn btn-light list-group-item contact-email">
+                <a
+                  href="mailto:adam629pratama@gmail.com"
+                  className="text-decoration-none">
+                  adam629pratama@gmail.com
+                </a>
               </li>
             </ul>
           </div>

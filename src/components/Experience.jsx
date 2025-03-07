@@ -20,43 +20,25 @@ export default function Experience() {
                   <span className="fw-bolder">Data Analyst (Internship) :</span>
                   <ul>
                     <li className="ms-md-3">
-                      <span>Electronic attendance data analysis :</span>
-                      <ul className="ms-md-5">
-                        <li className="text-justify col-md-12 col-10 my-1">
-                          Analyzed electronic attendance data of security guards
-                          for a specific project, gathered through the "Smart
-                          Patrol" app, using Microsoft Excel.
-                        </li>
-                        <li className="text-justify col-md-12 col-10 my-1">
-                          Created a report with a dashboard, summarizing
-                          electronic attendance analysis. The dashboard showed
-                          how often security staff used the Smart Patrol app,
-                          their average lateness, and the total number of
-                          patrols they completed. These reports were generated
-                          on a weekly, monthly, or on-demand basis.
-                        </li>
-                      </ul>
+                      Analyzed electronic attendance data of security personnel
+                      from the <span className="fst-italic">Smart Patrol</span>{" "}
+                      app using Microsoft Excel, generating weekly/monthly
+                      reports for insights.
                     </li>
                     <li className="ms-md-3 mt-2">
-                      <span>"Smart Patrol" app :</span>
-                      <ul className="col-12 ms-md-5">
-                        <li className="text-justify  col-md-12 col-10 my-1">
-                          Contributed to the establishment of Smart Patrol
-                          accounts for security personnel of a certain project
-                          and updated the personnel information on the admin
-                          website when needed.
-                        </li>
-                      </ul>
+                      Managed <span className="fst-italic">Smart Patrol</span>{" "}
+                      app accounts and updated personnel records, ensuring data
+                      accuracy.
                     </li>
                     <li className="ms-md-3 mt-2">
-                      <span>Members Identification Card summary :</span>
-                      <ul className="col-12 ms-md-5">
-                        <li className="text-justify col-md-12 col-10 my-1">
-                          Developed a Members Identification Card Summary
-                          Dashboard, offering a concise overview of active and
-                          soon-to-expire cards across all projects.
-                        </li>
-                      </ul>
+                      Developed a dashboard to monitor security patrol activity,
+                      lateness trends and performance.
+                    </li>
+                    <li className="ms-md-3 mt-2">
+                      Created a{" "}
+                      <span className="fst-italic">KTA Summary Dashboard</span>,
+                      providing real-time monitoring of active and expiring
+                      identification cards.
                     </li>
                   </ul>
                 </li>
