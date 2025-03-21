@@ -20,7 +20,7 @@ export default function About() {
                 width="200"
               />
               <p className="col-10 text-center mx-auto">
-                Aspiring Front-End Developer with experience in building
+                I'm an aspiring Front-End Developer with experience in building
                 responsive web applications using HTML, CSS (Bootstrap),
                 JavaScript, and React. Passionate about creating user-friendly
                 and visually appealing interfaces. Actively developing my skills
@@ -69,7 +69,7 @@ export default function About() {
             </div>
             <div className="col-md-8 mt-3 mx-auto"></div>
             <h4>Contact :</h4>
-            <ul className="list-unstyled mt-2 mb-5 list-group d-flex flex-column align-items-center">
+            <ul className="list-unstyled mt-2 mb-5 mx-auto list-group d-flex flex-column align-items-center">
               <li className="btn btn-light list-group-item contact-email">
                 <a
                   href="mailto:adam629pratama@gmail.com"
