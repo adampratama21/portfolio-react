@@ -19,15 +19,26 @@ export default function About() {
                 className="rounded-circle my-4 img-fluid"
                 width="200"
               />
-              <p className="col-10 text-center mx-auto">
-                I'm an aspiring Front-End Developer with experience in building
-                responsive web applications using HTML, CSS (Bootstrap),
-                JavaScript, and React. Passionate about creating user-friendly
-                and visually appealing interfaces. Actively developing my skills
-                through personal projects. Looking for an opportunity to
-                contribute to a development team and grow as a professional
-                developer.
-              </p>
+              <div className="col-10 text-center mx-auto">
+                <p className="d-block mb-3">
+                  I'm an aspiring tech professional with interests in Front-End
+                  Development, Data Analysis, and IT Support. Over the past
+                  year, I've been building responsive web applications using
+                  HTML, CSS (Bootstrap), JavaScript, and React.
+                </p>
+                <p className="d-block mb-3">
+                  I enjoy solving problems using technology and continuously
+                  develop my skills through personal projects and
+                  certifications. While I have a strong foundation in front-end
+                  development, I'm currently exploring the world of data by
+                  learning tools like Excel, Power BI, and SQL.
+                </p>
+                <p className="d-block">
+                  I'm open to entry-level opportunities in web development, data
+                  analysis, IT support, or other tech-related roles—where I can
+                  contribute, grow, and learn from real-world experiences.
+                </p>
+              </div>
             </div>
             <div className="col-md-8 mt-5 mx-auto">
               <h4>Social Media</h4>
