@@ -16,7 +16,7 @@ export default function About() {
               <img
                 src={fotoAdam}
                 alt="Adam Pratama"
-                className="rounded-circle my-4 img-fluid"
+                className="rounded-circle img-fluid mb-4"
                 width="200"
               />
               <div className="col-10 text-center mx-auto">
