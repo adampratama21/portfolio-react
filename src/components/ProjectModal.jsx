@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function ProjectModal({ project, onClose }) {
   if (!project) return null;
 
@@ -86,3 +88,15 @@ export default function ProjectModal({ project, onClose }) {
     </>
   );
 }
+
+ProjectModal.propTypes = {
+  project: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    techStack: PropTypes.string,
+    image: PropTypes.string,
+    repoLink: PropTypes.string,
+    projectLink: PropTypes.string,
+  }),
+  onClose: PropTypes.func.isRequired,
+};

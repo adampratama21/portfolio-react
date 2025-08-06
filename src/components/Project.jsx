@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 import Card from "./Card";
 import ProjectModal from "./ProjectModal";
@@ -38,3 +39,16 @@ export default function Project({ projects }) {
     </>
   );
 }
+
+Project.propTypes = {
+  projects: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      description: PropTypes.string,
+      techStack: PropTypes.string,
+      image: PropTypes.string,
+      repoLink: PropTypes.string,
+      projectLink: PropTypes.string,
+    }),
+  ).isRequired,
+};

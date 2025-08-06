@@ -46,6 +46,16 @@ function App() {
 
   const projects = [
     {
+      name: "Personal Data Analytics Projects",
+      description: "Collection of small data analytics projects",
+      techStack: "Currently - Excel, Power BI Desktop",
+      image: landing,
+      repoLink:
+        "https://github.com/adampratama21/data-analytics-projects/tree/main",
+      projectLink:
+        "https://github.com/adampratama21/data-analytics-projects/tree/main",
+    },
+    {
       name: "Landing Page Coffee Shop",
       description: "A landing page for a fictional coffee shop",
       techStack: "HTML, CSS, Bootstrap, JavaScript",
