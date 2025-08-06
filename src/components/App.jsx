@@ -13,6 +13,7 @@ import efset from "../assets/images/EF_SET_Certificate.png";
 import rwd from "../assets/images/Responsive_Web_Design-freeCodeCamp.png";
 import landing from "../assets/images/landing_page_coffee_shop.png";
 import datacert from "../assets/images/CertificateOfCompletion_Career Essentials in Data Analysis by Microsoft and LinkedIn-1.png";
+import dataprojects from "../assets/images/data_analytics_projects.png";
 
 function App() {
   const certificates = [
@@ -47,12 +48,11 @@ function App() {
   const projects = [
     {
       name: "Personal Data Analytics Projects",
-      description: "Collection of small data analytics projects",
+      description:
+        "A GitHub repository to store a collection of small data analytics projects",
       techStack: "Currently - Excel, Power BI Desktop",
-      image: landing,
+      image: dataprojects,
       repoLink:
-        "https://github.com/adampratama21/data-analytics-projects/tree/main",
-      projectLink:
         "https://github.com/adampratama21/data-analytics-projects/tree/main",
     },
     {
