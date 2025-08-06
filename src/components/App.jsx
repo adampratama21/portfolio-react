@@ -12,17 +12,18 @@ import BackToTopButton from "./BackToTop";
 import efset from "../assets/images/EF_SET_Certificate.png";
 import rwd from "../assets/images/Responsive_Web_Design-freeCodeCamp.png";
 import landing from "../assets/images/landing_page_coffee_shop.png";
+import datacert from "../assets/images/CertificateOfCompletion_Career Essentials in Data Analysis by Microsoft and LinkedIn-1.png";
 
 function App() {
   const certificates = [
     {
-      name: "ET Set Certification",
+      name: "Career Essentials in Data Analysis",
       description:
-        "Score : 73/100 | Proficiency Level : C2 Proficient (71/100)",
-      dateIssued: "20 Aug 2023",
-      issuedBy: "EF (English First)",
-      image: efset,
-      link: efset,
+        "Career Essentials in Data Analysis by Microsoft and LinkedIn",
+      dateIssued: "10 Jul 2025",
+      issuedBy: "Microsoft",
+      image: datacert,
+      link: "https://www.linkedin.com/learning/certificates/9714dc5b60f6b5463b23613a6c6a0e75ba4d76870355eeccbbd003e36b6c7bca",
     },
     {
       name: "Responsive Web Design",
@@ -30,7 +31,16 @@ function App() {
       dateIssued: "15 May 2024",
       issuedBy: "freeCodeCamp",
       image: rwd,
-      link: rwd,
+      link: "https://www.freecodecamp.org/certification/adampratama21/responsive-web-design",
+    },
+    {
+      name: "ET Set Certification",
+      description:
+        "Score : 73/100 | Proficiency Level : C2 Proficient (71/100)",
+      dateIssued: "20 Aug 2023",
+      issuedBy: "EF (English First)",
+      image: efset,
+      link: "https://cert.efset.org/r7PLyR",
     },
   ];
 

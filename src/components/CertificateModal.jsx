@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function CertificateModal({ certificate, onClose }) {
   if (!certificate) return null;
 
@@ -21,48 +23,50 @@ export default function CertificateModal({ certificate, onClose }) {
                   onClick={onClose}></button>
               </div>
               <div className="modal-body d-flex column-gap-5 mx-auto">
-                <div className="col-md-5 my-auto modal-image-top">
-                  <img
-                    src={certificate.image}
-                    alt={certificate.name}
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="col-md-7">
-                  <ul className="list-group list-unstyled p-1">
-                    <li>
-                      <h3 className="text-center text-decoration-underline">
-                        {certificate.name}
-                      </h3>
-                    </li>
-                    <li>
-                      <p>
-                        <span className="fw-bold">Description :</span>{" "}
-                        {certificate.description}
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <span className="fw-bold">Date Issued :</span>{" "}
-                        {certificate.dateIssued}
-                      </p>
-                    </li>
-                    <li>
-                      <p>
-                        <span className="fw-bold">Issued By :</span>{" "}
-                        {certificate.issuedBy}
-                      </p>
-                    </li>
-                    <li>
-                      <a
-                        href={certificate.link || "#"}
-                        className="btn btn-primary"
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        View Certificate
-                      </a>
-                    </li>
-                  </ul>
+                <div className="row">
+                  <div className="col-md-5 my-auto modal-image-top">
+                    <img
+                      src={certificate.image}
+                      alt={certificate.name}
+                      className="img-fluid"
+                    />
+                  </div>
+                  <div className="col-md-7">
+                    <ul className="list-group list-unstyled p-1">
+                      <li>
+                        <h3 className="text-center text-decoration-underline text-break">
+                          {certificate.name}
+                        </h3>
+                      </li>
+                      <li>
+                        <p>
+                          <span className="fw-bold">Description :</span>{" "}
+                          {certificate.description}
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <span className="fw-bold">Date Issued :</span>{" "}
+                          {certificate.dateIssued}
+                        </p>
+                      </li>
+                      <li>
+                        <p>
+                          <span className="fw-bold">Issued By :</span>{" "}
+                          {certificate.issuedBy}
+                        </p>
+                      </li>
+                      <li>
+                        <a
+                          href={certificate.link || "#"}
+                          className="btn btn-primary"
+                          target="_blank"
+                          rel="noopener noreferrer">
+                          View Certificate
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
               <div className="modal-footer">
@@ -80,3 +84,15 @@ export default function CertificateModal({ certificate, onClose }) {
     </>
   );
 }
+
+CertificateModal.propTypes = {
+  certificate: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    description: PropTypes.string,
+    dateIssued: PropTypes.string,
+    issuedBy: PropTypes.string,
+    image: PropTypes.string,
+    link: PropTypes.string,
+  }),
+  onClose: PropTypes.func.isRequired,
+};
