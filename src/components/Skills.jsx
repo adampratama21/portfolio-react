@@ -12,6 +12,11 @@ import npm from "../assets/images/logo/npm.png";
 import word from "../assets/images/logo/word.png";
 import excel from "../assets/images/logo/excel.png";
 import ppt from "../assets/images/logo/power-point.png";
+import tailwind from "../assets/images/logo/tailwind.png";
+import python from "../assets/images/logo/python.png";
+import sql from "../assets/images/logo/sql.png";
+import dbeaver from "../assets/images/logo/dbeaver.png";
+import powerbi from "../assets/images/logo/power-bi.png";
 
 export default function Skills() {
   return (
@@ -74,6 +79,27 @@ export default function Skills() {
                     className="logo-contain"
                   />
                 </li>
+                <li className="logo">
+                  <img
+                    src={tailwind}
+                    alt="Tailwind CSS"
+                    className="logo-contain"
+                  />
+                </li>
+                <li className="logo">
+                  <img
+                    src={python}
+                    alt="Python"
+                    className="logo-cover"
+                  />
+                </li>
+                <li className="logo">
+                  <img
+                    src={sql}
+                    alt="SQL"
+                    className="logo-contain"
+                  />
+                </li>
               </ul>
             </div>
             <div className="col-md-4 text-center">
@@ -107,6 +133,20 @@ export default function Skills() {
                     className="logo-cover"
                   />
                 </li>
+                <li className="logo">
+                  <img
+                    src={dbeaver}
+                    alt="Dbeaver"
+                    className="logo-contain"
+                  />
+                </li>
+                <li className="logo">
+                  <img
+                    src={powerbi}
+                    alt="Power Bi Desktop"
+                    className="logo-contain"
+                  />
+                </li>
               </ul>
             </div>
             <div className="col-md-4 text-center">
@@ -114,16 +154,16 @@ export default function Skills() {
               <ul className="d-flex flex-row justify-content-center flex-wrap list-unstyled mb-5 gap-2">
                 <li className="logo">
                   <img
-                    src={word}
-                    alt="Ms. Word"
-                    className="logo-cover"
+                    src={excel}
+                    alt="Ms. Excel"
+                    className="logo-contain"
                   />
                 </li>
                 <li className="logo">
                   <img
-                    src={excel}
-                    alt="Ms. Excel"
-                    className="logo-contain"
+                    src={word}
+                    alt="Ms. Word"
+                    className="logo-cover"
                   />
                 </li>
                 <li className="logo">

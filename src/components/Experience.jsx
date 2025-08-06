@@ -20,25 +20,31 @@ export default function Experience() {
                   <span className="fw-bolder">Data Analyst (Internship) :</span>
                   <ul>
                     <li className="ms-md-3">
-                      Analyzed electronic attendance data of security personnel
-                      from the <span className="fst-italic">Smart Patrol</span>{" "}
-                      app using Microsoft Excel, generating weekly/monthly
-                      reports for insights.
+                      Analyzed attendance data of 200+ security personnel using
+                      Microsoft Excel, identifying weekly attendance rates
+                      around 80%, which prompted management to issue reminders
+                      and formal warnings to improve compliance with app-based
+                      attendance procedures.
                     </li>
                     <li className="ms-md-3 mt-2">
-                      Managed <span className="fst-italic">Smart Patrol</span>{" "}
-                      app accounts and updated personnel records, ensuring data
-                      accuracy.
+                      Managed and updated{" "}
+                      <span className="fst-italic">Smart Patrol</span> app
+                      accounts for 200+ security personnel, ensuring accurate
+                      and reliable personnel records
                     </li>
                     <li className="ms-md-3 mt-2">
-                      Developed a dashboard to monitor security patrol activity,
-                      lateness trends and performance.
+                      Developed a dashboard to track weekly patrol activity for
+                      200+ security personnel using Excel data extracted from
+                      the <span className="fst-italic">Smart Patrol</span> admin
+                      portal, enabling individual performance monitoring.
                     </li>
                     <li className="ms-md-3 mt-2">
-                      Created a{" "}
-                      <span className="fst-italic">KTA Summary Dashboard</span>,
-                      providing real-time monitoring of active and expiring
-                      identification cards.
+                      Built a{" "}
+                      <span className="fst-italic">KTA Summary Dashboard</span>{" "}
+                      to monitor 800+ security personnel ID cards across 18
+                      projects, enabling real-time tracking of card status
+                      including active, expired, under extension, and personnel
+                      without KTA
                     </li>
                   </ul>
                 </li>

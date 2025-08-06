@@ -1,8 +1,9 @@
+import PropTypes from "prop-types";
 import { useState } from "react";
 import Card from "./Card";
 import CertificateModal from "./CertificateModal";
 
-export default function Certificate({ certificates }) {
+export default function Certificates({ certificates }) {
   const [selectedCertificate, setSelectedCertificate] = useState(null);
 
   return (
@@ -38,3 +39,16 @@ export default function Certificate({ certificates }) {
     </>
   );
 }
+
+Certificates.propTypes = {
+  certificates: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      description: PropTypes.string,
+      dateIssued: PropTypes.string,
+      issuedBy: PropTypes.string,
+      image: PropTypes.string,
+      link: PropTypes.string,
+    }),
+  ).isRequired,
+};
